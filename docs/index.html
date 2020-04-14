@@ -1,1324 +1,775 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Front-end and Vue Developer">
-  <meta name="keywords" content="resume,cv,Marko Marković">
-  <meta name="author" content="Marko Marković">
-  <!-- <meta name="robots" content="noindex"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
-  <link href="./build.css" rel="stylesheet">
-  <title>Marko Marković — Resume</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Front-end and Vue Developer">
+    <meta name="keywords" content="resume,cv,Marko Marković">
+    <meta name="author" content="Marko Marković">
+    <!-- <meta name="robots" content="noindex"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/FiraGO-Medium.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/FiraGO-SemiBold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/FiraGO-Regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/FiraGO-Bold.woff2" as="font" crossorigin="anonymous">
+    <link href="./build.css" rel="stylesheet">
+    <title>Fernando Canteruccio — Resume</title>
+  </head>
 
-<body>
-  <main class="font-firago hyphens-manual">
+  <body>
+    <main class="font-firago hyphens-manual">
 
-    <!-- Page -->
-    <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white">
+      <!-- Page -->
+      <div class="p-6 mx-auto page max-w-2xl print:max-w-a4 md:max-w-a4 md:h-a4 xsm:p-8 sm:p-9 md:p-16 bg-white">
 
-      <!-- Name -->
-      <header class="flex items-center mb-8 md:mb-11">
-        <div
-          class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3 py-2.5">
-          <div class="initial text-center pb-0.8">M</div>
-          <div class="text-center initial">M</div>
+        <!-- Name -->
+        <header class="flex items-center mb-8 md:mb-11">
+          <div
+            class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3 py-2.5">
+            <div class="initial text-center pb-0.8">F</div>
+            <div class="text-center initial">C</div>
+          </div>
+          <h1 class="text-2xl font-semibold text-gray-750">
+            Fernando Canteruccio
+          </h1>
+        </header>
+        <!-- end Name -->
+
+        <!-- Column -->
+        <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-a4-col print:h-a4-col col-fill-auto">
+
+          <!-- Use mt-3 class when the element isn’t the first one in the column -->
+          <section>
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+                ABOUT ME
+              </h2>
+
+              <section class="mb-4 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish font-noto-sans">
+                    Electrical Engineer
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                  Since 2017
+                  </p>
+                </header>
+                <p class="mt-2 text-md text-gray-700 leading-normal">
+                Electrical Engineer bachelor with a solid background in mathematics, statistics and systems modeling.
+                </p>
+              </section>
+
+            </div>
+
+            <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Hacker
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                Since 2015
+                </p>
+              </header>
+              <p class="mt-2 text-md text-gray-700 leading-normal">
+              Extensive experience in designing, developing, and maintaining cloud-based web applications as a Full Stack Developer.
+              </p>
+            </section>
+
+          </section>
+
+          <section class="mt-8">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+                EXPERIENCE
+              </h2>
+
+              <section class="mb-4 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                    <a href="https://software.megali.co.uk/" class="group" target="_blank" rel="noopener noreferrer">
+                      Software @ Megáli
+                      <span
+                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                    </a>
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                  Jul 2017 – Present | Software Engineer
+                  </p>
+                </header>
+                <p class="mt-2 text-md text-gray-700 leading-normal">
+                Development of commercial and industrial software systems. These projects included:
+                </p>
+                <ul class="">
+
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    design and deployment of large scale data mining and machine learning pipelines;
+                  </li>
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    development of end-to-end software systems featuring serverless architecture;
+                  </li>
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    development of RESTful API's and documentation;
+                  </li>
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    design of NoSQL databases with DynamoDB;
+                  </li>
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    development of modern frontend applications using React and React-Native;
+                  </li>
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    development of automated emailing systems;
+                  </li>
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    automation of the CI/CD processes for project maintenance, speed, and safety;
+                  </li>
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    offensive security assessment and threat modeling;
+                  </li>
+                </ul>
+              </section>
+
+            </div>
+
+            <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  <a href="" class="group" target="_blank" rel="noopener noreferrer">
+                    Robotics @ Megáli
+                  </a>
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                Jul 2016 – Jul 2017 | Control & Automation Engineer
+                </p>
+              </header>
+              <p class="mt-2 text-md text-gray-700 leading-normal">
+              Control and Automation systems development. These projects included:
+              </p>
+              <ul class="">
+                <li class="mt-2 text-md text-gray-700 leading-normal">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  development and implementation of autopilot system for dynamic flight control of light-aircrafts using high-speed microcontrollers;
+                </li>
+                <li class="mt-2 text-md text-gray-700 leading-normal">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  development of an active noise control system for light-aircrafts application;
+                </li>
+                <li class="mt-2 text-md text-gray-700 leading-normal">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  implementation of commercial automation systems including a full environmental control system for movie theatres;
+                </li>
+              </ul>
+            </section>
+
+          </section>
+
+          <section class="mt-8">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+                EDUCATION
+              </h2>
+
+              <section class="mb-4 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                    <a href="https://www.ufv.br/" class="group" target="_blank" rel="noopener noreferrer">
+                      Universidade Federal de Viçosa
+                      <span
+                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                    </a>
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                  Jan 2011 – Jul 2017 | Engineer’s degree
+                  </p>
+                  <p class="leading-normal text-md text-gray-700">
+                  Electrical Engineering
+                  </p>
+                </header>
+              </section>
+
+            </div>
+
+            <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  <a href="http://www.nias.ufv.br/" class="group" target="_blank" rel="noopener noreferrer">
+                    NIAS - UFV
+                    <span
+                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                  </a>
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                Jan 2017 – Jul 2017 | Internship
+                </p>
+                <p class="leading-normal text-md text-gray-700">
+                Data Science and Engineering
+                </p>
+              </header>
+            </section>
+
+          </section>
+
+          <section class="mt-8">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+                LAST PROJECTS
+              </h2>
+
+              <section class="mb-4 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                    <a href="https://logistic.megali.co.uk" class="group" target="_blank" rel="noopener noreferrer">
+                      Logistic Optimization System
+                      <span
+                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                    </a>
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                  Jan 2020 | Cooperoeste logística
+                  </p>
+                </header>
+                <p class="mt-2 text-md text-gray-700 leading-normal">
+                Development of end-to-end logistic optimization system, featuring:
+                </p>
+                <ul class="">
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    business logic modeling and large scale system performance simulation;
+                  </li>
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    serverless architecture with AWS Lambda and DynamoDB;
+                  </li>
+                  <li class="mt-2 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    modern frontend application using React;
+                  </li>
+                </ul>
+              </section>
+
+            </div>
+
+            <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  <a href="https://minasol.megali.co.uk" class="group" target="_blank" rel="noopener noreferrer">
+                    PV Systems Monitoring and Alarm System
+                    <span
+                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                  </a>
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                Jul 2019 | Minasol Painéis Fotovoltaicos
+                </p>
+              </header>
+              <p class="mt-2 text-md text-gray-700 leading-normal">
+              Development of api integration and data processing system, featuring:
+              </p>
+              <ul class="">
+                <li class="mt-2 text-md text-gray-700 leading-normal">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  custom serverless data scraping and api integration layer using AWS Lambda;
+                </li>
+                <li class="mt-2 text-md text-gray-700 leading-normal">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  serverless data processing and user customizable alarm system using AWS Lambda and DynamoDB;
+                </li>
+                <li class="mt-2 text-md text-gray-700 leading-normal">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  automated emailing and SMS notification system using AWS SES and SNS;
+                </li>
+                <li class="mt-2 text-md text-gray-700 leading-normal">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  modern frondend application using React;
+                </li>
+              </ul>
+            </section>
+
+          </section>
+
+          <section class="mt-8">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+                CONTACT
+              </h2>
+
+              <section class="ml-4 mb-4 break-inside-avoid">
+                <ul class="list-inside pr-7">
+                  <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                    <a href="https://github.com/naripok" class="group" target="_blank" rel="noopener noreferrer">
+                      <svg class="w-4.5 h-4.5 inline -ml-7 mr-1.5 -mt-0.8" viewbox="0 0 496 512" >
+                        <path
+                          class="text-gray-600 fill-current group-hover:text-gray-700 transition duration-100 ease-out print:text-gray-900"
+                          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                      </svg>
+                        github
+                        <span
+                          class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                    </a>
+                  </li>
+                  <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                    <a href="https://www.linkedin.com/in/fernando-canteruccio-a31088133/" class="group" target="_blank" rel="noopener noreferrer">
+                      <svg class="w-4.5 h-4.5 inline -ml-7 mr-1.5 -mt-0.8" viewbox="0 0 448 512" >
+                        <path class="text-gray-600 fill-current group-hover:text-gray-700 transition duration-100 ease-out print:text-gray-900"
+                              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                      </svg>
+                        linkedin
+                        <span
+                          class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                    </a>
+                  </li>
+                  <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                    <a href="https://www.google.com/maps/place/Divinópolis,+State+of+Minas+Gerais" class="group" target="_blank" rel="noopener noreferrer">
+                      <svg class="w-4.5 h-4.5 inline -ml-7 mr-1.5 -mt-0.8" viewbox="0 0 24 24">
+                        <path class="text-gray-600 fill-current group-hover:text-gray-700 transition duration-100 ease-out print:text-gray-900"
+                              d="M5.64 16.36a9 9 0 1 1 12.72 0l-5.65 5.66a1 1 0 0 1-1.42 0l-5.65-5.66zm11.31-1.41a7 7 0 1 0-9.9 0L12 19.9l4.95-4.95zM12 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                      </svg>
+                      Divinópolis - MG
+                    </a>
+                  </li>
+                  <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                    <a href="mailto:fernando@megali.co.uk" class="group" target="_blank" rel="noopener noreferrer">
+                      <svg class="w-4.5 h-4.5 inline -ml-7 mr-1.5 -mt-0.8" viewbox="0 0 24 24">
+                        <path class="text-gray-600 fill-current group-hover:text-gray-700 transition duration-100 ease-out print:text-gray-900"
+                              d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm16 3.38V6H4v1.38l8 4 8-4zm0 2.24l-7.55 3.77a1 1 0 0 1-.9 0L4 9.62V18h16V9.62z" />
+                      </svg>
+                      fernando@megali.co.uk
+                    </a>
+                  </li>
+                  <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                    <a href="tel:+5537998767196" class="group" target="_blank" rel="noopener noreferrer">
+                      <svg class="w-4.5 h-4.5 inline -ml-7 mr-1.5 -mt-0.8" viewbox="0 0 24 24">
+                        <path class="text-gray-600 fill-current group-hover:text-gray-700 transition duration-100 ease-out print:text-gray-900"
+                              d="M13.04 14.69l1.07-2.14a1 1 0 0 1 1.2-.5l6 2A1 1 0 0 1 22 15v5a2 2 0 0 1-2 2h-2A16 16 0 0 1 2 6V4c0-1.1.9-2 2-2h5a1 1 0 0 1 .95.68l2 6a1 1 0 0 1-.5 1.21L9.3 10.96a10.05 10.05 0 0 0 3.73 3.73zM8.28 4H4v2a14 14 0 0 0 14 14h2v-4.58l-4.5-1.5-1.12 2.26a1 1 0 0 1-1.3.46 12.04 12.04 0 0 1-6.02-6.01 1 1 0 0 1 .46-1.3l2.26-1.14L8.28 4z" />
+                      </svg>
+                      (+55) 37 99876 7196
+                    </a>
+                  </li>
+                </ul>
+              </section>
+
+            </div>
+
+          </section>
+
         </div>
-        <h1 class="text-2xl font-semibold text-gray-750">
-          Marko Marković
-        </h1>
-      </header>
-      <!-- end Name -->
-
-      <!-- Column -->
-      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
-
-        <!-- Use mt-3 class when the element isn’t the first one in the column -->
-        <section>
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              ABOUT ME
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish font-noto-sans">
-                  User Interface Designer
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2010
-                </p>
-              </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Minimal and formal résumé website template for print, mo&shy;bile, and desktop. The proportions are
-                the same on the screen and paper. Built with amazing <a
-                  class="hover:bg-green-100 rounded-lg transition ease-in duration-100"
-                  href="https://tailwindcss.com/">Tailwind CSS&nbsp;°</a>.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Front-End Developer
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Since 2013
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              “docs/index.html” is the main content file. By copying HTML: add pages, sec&shy;tions, subsection, and other parts.
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EXPERIENCE
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  WebPraktikos Inc.
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Jun 2018 – Present | Web Developer
-                </p>
-              </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Built doner pork chop &bull; Served salmon, cream soft cheese, and brisket &bull; Acted 55% pork chop
-                &bull; Filled burgdoggen & frankfurter strip steak with 90% burger patties and broth
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Mammoth GmbH
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Feb 2017 – Apr 2018 | Android Developer
-              </p>
-            </header>
-            <ul class="">
-
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Created beef rump beef ribs, shankle corned beef chuck; ribeye turducken pancetta sausage biltong atl yamoi
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Tested beef rump beef ribs, shankle corned beef chuck; ribeye turducken pancetta sausage biltong
-                atl yamoi
-              </li>
-            </ul>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Exquisite Systems d.o.o.
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                May 2015 – Dec 2016 | Software QA Specialist
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Handled shankle frankfurter t-bone brisket short palo
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Monitored salami sprge ribs brisket flank, pork 5+ meat
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Researched cow rump beef ribs, shankle corned beefy
-              </li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EDUCATION
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Graz University of Technology
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  2014 – 2015 | Master's Degree in Chemistry
-                </p>
-              </header>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Biology
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013| Bachelor’s Degree in Chemistry
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Grammar School Sarajevo
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2006 – 2010 | Foreign Languages
-              </p>
-            </header>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              PROJECTS
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a href="https://github.com/WebPraktikos" class="group">
-                    Universal Resume
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2019 | HTML CSS
-                </p>
-              </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Good design is as little design as possible. Less, but better — because it concentrates on the essential
-                aspects, and the pro&shy;ducts are not burdened with non-essentials.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                <a href="https://github.com/WebPraktikos" class="group">
-                  fade-on-scroll
-                  <span
-                    class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                </a>
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2017 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Good design is long-lasting. It avoids being fashionable and therefore never appears antiquated.
-            </p>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Good design is honest. It does not make a product more innovative, powerful or valuable than it really is.
-            </p>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Third One
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2013 – 2014 | Vue
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Good design is innovative. Technological development is always offering new opportunities for innovative design.
-            </p>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Fantastic Project
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2012 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Strip steak tail capicola alcatra ground round tenderloin ar. Venison tri-tip porchetta, brisket
-              tenderloin pig beef.
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              SKILLS
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  JavaScript
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Middle Level
-                </p>
-              </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Good parts: pure function, higher-order functions, factory functions, composition. Bad parts:
-                inheritance, this, new.
-              </p>
-              <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
-                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  ES6
-                </li>
-                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Vue
-                </li>
-                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Functional Programming
-                </li>
-                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Node
-                </li>
-              </ul>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Other
-              </h3>
-            </header>
-            <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                CSS
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Rust
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Git
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Go
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Linux Server
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                UI Design
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Photoshop
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Illustrator
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Figma
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Typography
-              </li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              CONTACT
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <ul class="list-inside pr-7">
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//webpraktikos.com" class="group">
-                    webpraktikos.com
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//twitter.com/webpraktikos" class="group">
-                    twitter.com/webpraktikos
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  1020 Wien, Austria
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  hi@webpraktikos.com
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  (+43) 0699 77 33 77 55
-                </li>
-              </ul>
-            </section>
-
-          </div>
-
-        </section>
+        <!-- end Column -->
 
       </div>
-      <!-- end Column -->
+      <!-- end Page -->
 
-    </div>
-    <!-- end Page -->
+      <!-- Page -->
+      <div class="p-6 mx-auto page max-w-2xl print:max-w-a4 md:max-w-a4 md:h-a4 xsm:p-8 sm:p-9 md:p-16 print:bg-white bg-gray-100">
 
-    <!-- Page -->
-    <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 print:bg-white bg-gray-100">
+        <!-- Column -->
+        <div
+          class="md:col-count-2 print:col-count-2 col-gap-md md:h-a4-col-full print:h-a4-col-full col-fill-auto">
 
-      <!-- Column -->
-      <div
-        class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col-full print:h-letter-col-full col-fill-auto">
 
-        <!-- Use mt-3 class when the element isn’t the first one in the column -->
-        <section>
+          <section>
 
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              ABOUT ME
-            </h2>
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+                SKILLS
+              </h2>
+            </div>
 
             <section class="mb-4 break-inside-avoid">
               <header>
                 <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Front-End Developer
+                  Statistics & Machine Learning
                 </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2010
-                </p>
               </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Started playing with JavaScript and CSS since se­nior year of high school. Now, I’m using utility-first
-                CSS. As for Ja&shy;va­&shy;Script, I'm practicing functional programming goodness.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vue Developer
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Since 2013
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Started when the Theme Customizer was the future. Now, ready to dig into the Gutenberg editor. Also, I’m
-              ex&shy;ci&shy;ted ab&shy;out the possibilities of Gatsby and WP interoperability.
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EXPERIENCE
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  WebPraktikos Inc.
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Jun 2018 – Present | Web Developer
-                </p>
-              </header>
-              <ul class="">
-                <li class="mt-2 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Wrote doner pork chop t-bone ham meatloaf venisons
-                </li>
-                <li class="mt-2 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Tested beef rump beef ribs, shankle corned beef chuck
-                </li>
-                <li class="mt-2 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Designed ribeye strip steak meatball venison adouille
-                </li>
-              </ul>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Mammoth GmbH
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Feb 2017 – Apr 2018 | Android Developer
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Served filet mignon shankle short ribs, strip steak pork
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Created beef rump beef ribs, shankle corned beef pork
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Researched cow rump beef ribs, shankle corned beefy
-              </li>
-            </ul>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Exquisite Systems d.o.o.
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                May 2015 – Dec 2016 | Software QA Specialist
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Handled shankle frankfurter t-bone brisket short palo
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Tested beef rump beef ribs, shankle corned beef chuck
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Monitored salami sprge ribs brisket flank, pork 5+ meat in all EU countries
-              </li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EDUCATION
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Graz University of Technology
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  2014 – 2015 | Master's Degree in Chemistry
-                </p>
-              </header>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Biology
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Biology
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Chemistry
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Grammar School Sarajevo
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2006 – 2010 | Foreign Languages
-              </p>
-            </header>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              PROJECTS
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a href="https://github.com/WebPraktikos" class="group">
-                    Universal Resume
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2019 | HTML CSS
-                </p>
-              </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Filet mignon burgdoggen tri-tip swine pork belly ham hock flank pork. Ribeye turducken pancetta sausage.
-                Biltong atl. Bacon ham shankle, landjaeg pastrami beef.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                <a href="https://github.com/WebPraktikos" class="group">
-                  fade-on-scroll
-                  <span
-                    class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                </a>
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2017 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Filet mignon burgdoggen tri-tip swine pork belly ham hock flank pork. Ribeye turducken pancetta sausage.
-              Biltong atl. Bacon ham shankle, landjaeg pastrami beef.
-            </p>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Third One
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2013 – 2014 | Vue
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Filet mignon burgdoggen tri-tip swine pork belly ham hock flank pork. Ribeye turducken pancetta sausage.
-            </p>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Fantastic Project
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2017 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Filet mignon burgdoggen tri-tip swine pork belly ham hock flank pork. Ribeye turducken pancetta sausage.
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              SKILLS
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  JavaScript
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Middle Level
-                </p>
-              </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Good parts: pure function, higher-order functions, factory functions, composition. Bad parts:
-                inheritance, this, new.
-              </p>
-              <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
-                <li
-                  class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  ES6
-                </li>
-                <li
-                  class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Vue
-                </li>
-                <li
-                  class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Functional Programming
-                </li>
-                <li
-                  class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Node
-                </li>
-              </ul>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Other
-              </h3>
-            </header>
-            <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                CSS
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                PHP
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                Git
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                Go
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                Linux Server
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                UI Design
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                Photoshop
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                Illustrator
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                Figma
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                Typography
-              </li>
-            </ul>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Languages
-              </h3>
-            </header>
-            <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                Serbo-Croatian
-              </li>
-              <li
-                class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                English
-              </li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              CONTACT
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <ul>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//webpraktikos.com" class="group">
-                    webpraktikos.com
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//meatheals.com" class="group">
-                    meatheals.com
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//twitter.com/webpraktikos" class="group">
-                    twitter.com/webpraktikos
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  1020 Wien, Austria
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  hi@webpraktikos.com
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  (+43) 0699 77 33 77 55
-                </li>
-              </ul>
-            </section>
-
-          </div>
-
-        </section>
-
-      </div>
-      <!-- end Column -->
-
-    </div>
-    <!-- end Page -->
-
-    <!-- Page -->
-    <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white">
-
-      <!-- Column -->
-      <div
-        class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col-full print:h-letter-col-full col-fill-auto">
-
-        <!-- Use mt-3 class when the element isn’t the first one in the column -->
-        <section>
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              ABOUT ME
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Front-End Developer
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2010
-                </p>
-              </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Started playing with JavaScript and CSS since se­nior year of high school. Now, I’m using utility-first
-                CSS. As for Ja&shy;va­&shy;Script, I'm practicing functional programming goodness.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vue Developer
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Since 2013
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Started when the Theme Customizer was the future. Now, ready to dig into the Gutenberg editor. Also, I’m
-              ex&shy;ci&shy;ted ab&shy;out the possibilities of Gatsby and WP interoperability.
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EXPERIENCE
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  WebPraktikos Inc.
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Jun 2018 – Present | Web Developer
-                </p>
-              </header>
-              <ul class="">
-                <li class="mt-2 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Wrote doner pork chop t-bone ham meatloaf venisons
-                </li>
-                <li class="mt-2 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Tested beef rump beef ribs, shankle corned beef chuck
-                </li>
-                <li class="mt-2 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Designed ribeye strip steak meatball venison adouille
-                </li>
-              </ul>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Mammoth GmbH
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Feb 2017 – Apr 2018 | Android Developer
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Served filet mignon shankle short ribs, strip steak pork
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Created beef rump beef ribs, shankle corned beef pork
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Researched cow rump beef ribs, shankle corned beefy
-              </li>
-            </ul>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Exquisite Systems d.o.o.
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                May 2015 – Dec 2016 | Software QA Specialist
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Handled shankle frankfurter t-bone brisket short palo
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Tested beef rump beef ribs, shankle corned beef chuck
-              </li>
-              <li class="mt-2 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Monitored salami sprge ribs brisket flank, pork 5+ meat in all EU countries
-              </li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EDUCATION
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Graz University of Technology
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  2014 – 2015 | Master's Degree in Chemistry
-                </p>
-              </header>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Biology
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Biology
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Chemistry
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Grammar School Sarajevo
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2006 – 2010 | Foreign Languages
-              </p>
-            </header>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              PROJECTS
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a href="https://github.com/WebPraktikos" class="group">
-                    Universal Resume
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2019 | HTML CSS
-                </p>
-              </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Filet mignon burgdoggen tri-tip swine pork belly ham hock flank pork. Ribeye turducken pancetta sausage.
-                Biltong atl. Bacon ham shankle, landjaeg pastrami beef.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                <a href="https://github.com/WebPraktikos" class="group">
-                  fade-on-scroll
-                  <span
-                    class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                </a>
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2017 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Filet mignon burgdoggen tri-tip swine pork belly ham hock flank pork. Ribeye turducken pancetta sausage.
-              Biltong atl. Bacon ham shankle, landjaeg pastrami beef.
-            </p>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Third One
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2013 – 2014 | Vue
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Filet mignon burgdoggen tri-tip swine pork belly ham hock flank pork. Ribeye turducken pancetta sausage.
-            </p>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Fantastic Project
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2017 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2 text-md text-gray-700 leading-normal">
-              Filet mignon burgdoggen tri-tip swine pork belly ham hock flank pork. Ribeye turducken pancetta sausage.
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              SKILLS
-            </h2>
-
-            <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  JavaScript
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Middle Level
-                </p>
-              </header>
-              <p class="mt-2 text-md text-gray-700 leading-normal">
-                Good parts: pure function, higher-order functions, factory functions, composition. Bad parts:
-                inheritance, this, new.
-              </p>
               <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
                 <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  ES6
+                  Stochastic Modeling
                 </li>
                 <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Vue
+                  Baeysian Statistics
                 </li>
                 <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Functional Programming
+                  Hypothesis Testing
                 </li>
                 <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Node
+                  Monte Carlo
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  NLP
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Computer Vision
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Time Series
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  RL
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Transformers
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  ARMA/ARIMA
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Hidden Markov Models
                 </li>
               </ul>
             </section>
-
-          </div>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Other
-              </h3>
-            </header>
-            <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                CSS
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                PHP
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Git
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Go
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Linux Server
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                UI Design
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Photoshop
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Illustrator
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Figma
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Typography
-              </li>
-            </ul>
-          </section>
-
-          <section class="mb-4 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Languages
-              </h3>
-            </header>
-            <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                Serbo-Croatian
-              </li>
-              <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                English
-              </li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section class="mt-8">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              CONTACT
-            </h2>
 
             <section class="mb-4 break-inside-avoid">
-              <ul>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//webpraktikos.com" class="group">
-                    webpraktikos.com
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Amazon Web Services (AWS)
+                </h3>
+              </header>
+              <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  CloudFormation
                 </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//meatheals.com" class="group">
-                    meatheals.com
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  EC2
                 </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//twitter.com/webpraktikos" class="group">
-                    twitter.com/webpraktikos
-                    <span
-                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Lambda
                 </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  1020 Wien, Austria
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  S3
                 </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  hi@webpraktikos.com
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  SNS
                 </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  (+43) 0699 77 33 77 55
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  SES
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  API Gateway
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Cognito
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  DynamoDB
                 </li>
               </ul>
             </section>
 
-          </div>
+            <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Databases
+                </h3>
+              </header>
+              <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  SQL
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  PostgreSQL
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  NoSQL
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  MongoDB
+                </li>
+              </ul>
+            </section>
 
-        </section>
+            <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Offensive Security
+                </h3>
+              </header>
+              <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Linux
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  OWASP
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Kali
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Threat Modeling
+                </li>
+              </ul>
+            </section>
+            <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Other
+                </h3>
+              </header>
+              <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Git
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Agile
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  TDD
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  FP
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Bash
+                </li>
+                <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Docker
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="mt-8">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+                LANGUAGES
+              </h2>
+
+              <section class="mb-4 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                    Python
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                  Fluent
+                  </p>
+                </header>
+                <p class="mt-2 text-md text-gray-700 leading-normal">
+                  Everyday use on the development of tooling, CLIs, backend services, data scraping and machine learning pipelines.
+                </p>
+
+                <ul class="mt-2">
+                  <li class="leading-normal text-md text-gray-650">
+                    Data Science
+                  </li>
+                  <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Cython
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Numpy
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Scipy
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Pandas
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Matplotlib
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Tensorflow
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      PyTorch
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Sklearn
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      PyMC3
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Jupyter
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Google's Colab
+                    </li>
+                  </ul>
+
+                  <li class="leading-normal text-md text-gray-650">
+                    Data Scraping & Automation
+                  </li>
+                  <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Requests
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Selenium
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Beautiful Soup
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Flask
+                    </li>
+                  </ul>
+
+                  <li class="leading-normal text-md text-gray-650">
+                    Testing
+                  </li>
+                  <ul class="my-2 mb-6 flex flex-wrap text-md leading-relaxed">
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      unittest
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      pytest
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      hypothesis
+                    </li>
+                  </ul>
+
+                </ul>
+              </section>
+
+            </div>
+
+            <div class="break-inside-avoid">
+
+              <section class="mb-4 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                    JavaScript
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                  Fluent
+                  </p>
+                </header>
+                <p class="mt-2 text-md text-gray-700 leading-normal">
+                  Everyday use on the development of modern frontend applications and data visualization.
+                </p>
+                <ul class="mt-2">
+                  <li class="leading-normal text-md text-gray-650">
+                    Data Visualization
+                  </li>
+                  <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      D3
+                    </li>
+                  </ul>
+                  <li class="leading-normal text-md text-gray-650">
+                    Web & Mobile Frontend
+                  </li>
+                  <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      ES7
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      React
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      React-Native
+                    </li>
+                  </ul>
+                  <li class="leading-normal text-md text-gray-650">
+                    Server & Backend
+                  </li>
+                  <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Node
+                    </li>
+                  </ul>
+                  <li class="leading-normal text-md text-gray-650">
+                    Testing
+                  </li>
+                  <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Enzyme
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Jest
+                    </li>
+                  </ul>
+                </ul>
+              </section>
+
+            </div>
+
+            <div class="break-inside-avoid">
+
+              <section class="mb-4 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                    C++
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    Mid Level
+                  </p>
+                </header>
+                <p class="mt-2 text-md text-gray-700 leading-normal">
+                  Used on the development of firmware and control loops for high performance microcontroller applications.
+                </p>
+                <ul class="mt-2">
+                  <li class="leading-normal text-md text-gray-650">
+                    Frameworks
+                  </li>
+                  <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      ChibiOS
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      FreeRTOS
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      Arduino
+                    </li>
+                  </ul>
+                  <li class="leading-normal text-md text-gray-650">
+                    Toolchains
+                  </li>
+                  <ul class="py-1.5 mb-6 flex flex-wrap text-md leading-relaxed">
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      CMake
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      g++
+                    </li>
+                    <li class="px-3 mr-1.5 mt-1.5 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                      armclang
+                    </li>
+                  </ul>
+                </ul>
+              </section>
+
+            </div>
+
+          </section>
+        </div>
+        <!-- end Column -->
 
       </div>
-      <!-- end Column -->
+      <!-- end Page -->
 
-    </div>
-    <!-- end Page -->
+    </main>
 
-  </main>
-
-</body>
+  </body>
 
 </html>
