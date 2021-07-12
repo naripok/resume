@@ -20,7 +20,7 @@ How to run it
 Navigate to the base directory:
 
 ```
-cd universal-resume
+cd resume
 ```
 
 Install the dependencies:
