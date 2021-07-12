@@ -125,10 +125,8 @@ If you want to significantly speed up font loading time, find out what fonts you
 Contact Me / Hire Me
 ---------
 
-If you have any question, comment, or issue, please let me know via:
-- hi@webpraktikos.com
-- https://twitter.com/webpraktikos
-- or open an issue on GitHub (Issues → New issue)
+If you have any question, please let me know via:
+- fernando@megali.co.uk
 
 License
 ---------
