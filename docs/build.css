@@ -26238,6 +26238,7 @@ body {
 
   .page {
     padding: 4rem 4rem !important;
+    page-break-after: always;
   }
 
   .initial {

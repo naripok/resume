@@ -19,6 +19,7 @@
 
   .page {
     padding: theme(spacing.16) theme(spacing.16) !important;
+    page-break-after: always;
   }
 
   .initial {
