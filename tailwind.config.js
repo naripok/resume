@@ -33,20 +33,17 @@ module.exports = {
         lg: "1.125rem", // 18px heading
       },
       lineHeight: {
-        snugish: "1.37",
-        normal: "1.4",
+        snugish: "1.3",
+        normal: "1.33",
       },
       maxWidth: {
         letter: "66.40625rem",
         a4: "64.609375rem",
       },
       height: {
-        letter: "85.9375rem",
-        "letter-col": "71.627937rem",
-        "letter-col-full": "77.9375rem",
         a4: "91.350883rem",
-        "a4-col": "71rem",
-        "a4-col-full": "82rem",
+        "a4-col": "68rem",
+        "a4-col-full": "77rem",
       },
       spacing: {
         0.5: "0.07rem",
