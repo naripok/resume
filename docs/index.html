@@ -40,6 +40,38 @@
       crossorigin="anonymous"
     />
     <title>Fernando Canteruccio — Resume</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Fernando Canteruccio",
+        "email": "fernando@megali.co.uk",
+        "jobTitle": "Software and Machine Learning Engineer",
+        "worksFor": [
+          {
+            "@type": "Organization",
+            "name": "Megali"
+          }
+        ],
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "Universidade Federal de Viçosa"
+          }
+        ],
+        "knowsAbout": [
+          "Software Engineering",
+          "Machine Learning",
+          "Python",
+          "Typescript",
+          "Javascript",
+          "AWS",
+          "GCP"
+        ],
+        "knowsLanguage": ["English", "Portuguese"]
+      }
+    </script>
   </head>
 
   <body>
@@ -50,16 +82,16 @@
       >
         <header class="flex items-center mb-8">
           <div
-            class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3 py-2.5"
+            class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3 py-2.5 print:hidden"
           >
             <div class="initial text-center pb-0.8">F</div>
             <div class="text-center initial">C</div>
           </div>
           <div>
-            <h1 class="text-2xl font-semibold text-gray-750">
+            <h1 class="text-2xl font-semibold text-gray-750 print:text-3xl">
               Fernando Canteruccio
             </h1>
-            <div class="text-sm text-gray-750">Resume</div>
+            <div class="text-sm text-gray-750 print:hidden">Resume</div>
           </div>
         </header>
 
@@ -198,7 +230,7 @@
               <h2
                 class="mb-4 print:mb-0 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
               >
-                EXPERIENCE
+                WORK EXPERIENCE
               </h2>
             </header>
 
@@ -414,7 +446,7 @@
               <h2
                 class="mb-4 print:mb-0 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
               >
-                LAST PROJECTS
+                PROJECTS
               </h2>
             </header>
 
