@@ -43,7 +43,7 @@ module.exports = {
       height: {
         a4: "91.350883rem",
         "a4-col": "63rem",
-        "a4-col-full": "70rem",
+        "a4-col-full": "72rem",
       },
       spacing: {
         0.5: "0.07rem",
